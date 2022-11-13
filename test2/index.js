@@ -36,7 +36,7 @@ function sum() {
 
 //const sum(a, b) => a+b
   //ES6, arrow function
-const introducer =(name, shirt) =>{
+/*const introducer =(name, shirt) =>{
     const person ={
         name: name,
         shirt: shirt,
@@ -52,7 +52,7 @@ const introducer =(name, shirt) =>{
 console.log(introducer('Vu nhat', 'bamba'));
 
 const numbers=[1,2,3,4,5,6]
-//other way turn it into a function
+other way turn it into a function
 const double =(numbers)=>{
     let result=[]
     for(const number of numbers){
@@ -60,6 +60,15 @@ const double =(numbers)=>{
     }
     return result
 }
-console.log(double([1,2,3,4,5,6]));
+console.log(double([1,2,3,4,5,6]));*/
+const numberOneTriangle = (n) => {
+  for(let i = 0; i< n; i++){
+    for(let j =0; j<i; j++) {
+      document.write("*")
+    }
+    document.write("<br/>")
+  }
+}
+numberOneTriangle(5);
 
 
